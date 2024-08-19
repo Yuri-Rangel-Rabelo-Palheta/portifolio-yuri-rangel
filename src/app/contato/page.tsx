@@ -1,7 +1,7 @@
 //import EmailForm from "@/components/EmailForm"
 export default function Page() {
     return (
-        <div className="flex flex-col items-center justify-center p-6 bg-dark-blue text-light-gray">
+        <div className="flex flex-col items-center justify-center p-6 bg-dark-blue text-light-gray text-indigo-200">
             <h1 className="text-3xl font-bold mb-8">Contato</h1>
             <p className="mb-4 text-center">
                 Entre em contato comigo enviando um e-mail ou por whatsapp:

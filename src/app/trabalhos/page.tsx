@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function TrabalhosExperiencias() {
   return (
-    <div className="p-6 bg-dark-blue text-light-gray">
+    <div className="p-6 bg-dark-blue text-light-gray text-indigo-200">
       {/* Seção de Trabalhos e Experiências */}
       <h1 className="text-3xl font-bold mb-6 text-center">Trabalhos e Experiências</h1>
 

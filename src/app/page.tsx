@@ -20,7 +20,7 @@ export default function Home() {
         
         
         <h1 className="text-4xl font-bold mb-6 text-center text-indigo-400">Eng. Computação - Yuri Rangel</h1>
-        <h2 className="text-2xl font-semibold mb-4 text-center">Perito Computacional, Especialista em Computação Forense. Mestrando em Computação Aplicada</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-center text-gray-200">Perito Computacional, Especialista em Computação Forense. Mestrando em Computação Aplicada</h2>
         
         <div className="space-y-4 text-justify">
           <p className="text-center text-blue-100">

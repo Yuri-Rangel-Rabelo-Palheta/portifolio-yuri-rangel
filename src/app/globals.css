@@ -5,7 +5,41 @@
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-end-rgb: 29.4, 0, 51;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    ),
+    url('/bg-hacker.jpg'); /* Path to your background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8; /* Adjust opacity as needed */
+}
+
+
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 29.4, 0, 51;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,3 +59,4 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+ */

@@ -19,12 +19,12 @@ export default function Menusuperior() {
 
             {/* Seção de Links de Navegação */}
             <div className="flex space-x-6 text-xl font-bold">
-                <Link href="/" className="hover:text-blue-500 transition-colors duration-300 text-indigo-400">Home</Link>
-                <Link href="/sobre" className="hover:text-blue-500 transition-colors duration-300 text-indigo-400">Sobre</Link>
-                <Link href="/projetos" className="hover:text-blue-500 transition-colors duration-300 text-indigo-400">Projetos</Link>
-                <Link href="/cursos" className="hover:text-blue-500 transition-colors duration-300 text-indigo-400">Cursos</Link>
-                <Link href="/trabalhos" className="hover:text-blue-500 transition-colors duration-300 text-indigo-400">Trabalhos</Link>
-                <Link href="/contato" className="hover:text-blue-500 transition-colors duration-300 text-indigo-400">Contato</Link>
+                <Link href="/" className="hover:text-blue-500 transition-colors duration-300 text-indigo-200">Home</Link>
+                <Link href="/sobre" className="hover:text-blue-500 transition-colors duration-300 text-indigo-200">Sobre</Link>
+                <Link href="/projetos" className="hover:text-blue-500 transition-colors duration-300 text-indigo-200">Projetos</Link>
+                <Link href="/cursos" className="hover:text-blue-500 transition-colors duration-300 text-indigo-200">Cursos</Link>
+                <Link href="/trabalhos" className="hover:text-blue-500 transition-colors duration-300 text-indigo-200">Trabalhos</Link>
+                <Link href="/contato" className="hover:text-blue-500 transition-colors duration-300 text-indigo-200">Contato</Link>
             </div>
         </div>
     );
